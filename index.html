@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eef0f1">
+  <meta name="description" content="诗词拾光：一间安静的私人古典文学阅览室。">
+  <title>诗词拾光 · Little Poetry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="诗词拾光首页">
+      <span class="brand-seal">诗</span>
+      <span class="brand-copy"><strong>诗词拾光</strong><small>LITTLE POETRY · A READING JOURNAL</small></span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <button class="nav-btn active" data-page="home">阅览室</button>
+      <button class="nav-btn" data-page="favorites">我的收藏</button>
+      <button class="nav-btn" data-page="history">阅读足迹</button>
+    </nav>
+  </header>
+
+  <main class="container" id="top">
+    <div class="masthead-line"><span>VOL. 02</span><span>CLASSICAL LITERATURE COLLECTION</span><span>EST. 2026</span></div>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A QUIET PLACE FOR WORDS</p>
+        <h1>在旧句里，<br><em>读见新意。</em></h1>
+        <p class="hero-desc">把喜欢的诗文收进来。慢慢读，也慢慢记。</p><p class="collection-count" id="collectionCount">馆藏作品 · 63 篇</p>
+      </div>
+      <div class="hero-side"><span class="hero-index">01</span><span class="vertical-note">一字一句，皆有回响</span><span class="hero-rule"></span></div>
+    </section>
+
+    <section class="toolbar" aria-label="阅读设置">
+      <div class="toolbar-heading"><span class="eyebrow">READING SETTINGS</span><span>阅读设置</span></div>
+      <div class="toolbar-controls">
+        <label>纸张 <select id="paperSelect"><option value="snow">雾白</option><option value="silver">银灰</option><option value="warm">暖纸</option></select></label>
+        <label>字体 <select id="fontSelect"><option value="song">宋体</option><option value="kai">楷体</option><option value="fangsong">仿宋</option><option value="serif">衬线</option></select></label>
+        <button class="setting-button" id="verticalBtn" aria-pressed="false">竖排阅读</button>
+        <button class="setting-button" id="musicBtn" aria-pressed="false"><span class="music-dot"></span>开启阅读音乐</button>
+      </div>
+      <p class="music-note" id="musicNote">音乐由浏览器本地生成，不需要联网。开启后可随时暂停。</p>
+    </section>
+
+    <div id="homeView">
+      <section class="daily-section section-block">
+        <div class="section-heading"><div><span class="section-no">01</span><span class="eyebrow">TODAY'S READING</span></div><h2>每日一篇</h2></div>
+        <article class="daily-card">
+          <div class="daily-meta"><span>今日诗笺</span><time id="todayDate"></time></div>
+          <div id="dailyContent" class="daily-content"></div>
+          <button class="link-button" id="dailyDetailBtn">展开阅读 <span>↗</span></button>
+        </article>
+      </section>
+
+      <section class="reading-section section-block" id="reading">
+        <div class="section-heading"><div><span class="section-no">02</span><span class="eyebrow">RANDOM DISCOVERY</span></div><h2>随机拾句</h2></div>
+        <article class="reading-card" id="readingCard">
+          <div class="reading-placeholder"><span class="placeholder-mark">拾</span><h3>等待一场文字的相逢</h3><p>从收藏之外，再遇见一篇作品。</p></div>
+        </article>
+        <div class="action-row">
+          <button class="primary-button" id="randomBtn">换一篇 <span>↗</span></button>
+          <button class="secondary-button" id="favoriteBtn" disabled>♡ 收藏</button>
+          <button class="secondary-button" id="copyBtn" disabled>复制原文</button>
+          <button class="secondary-button" id="cardBtn" disabled>制作摘抄卡片</button>
+        </div>
+      </section>
+
+      <section class="search-section section-block" id="search">
+        <div class="section-heading"><div><span class="section-no">03</span><span class="eyebrow">FIND A PASSAGE</span></div><h2>检索藏书</h2></div>
+        <div class="search-box"><span class="search-icon">⌕</span><input id="searchInput" type="search" placeholder="搜索标题、作者、诗句或正文" autocomplete="off"><button id="clearSearch" type="button">清除</button></div>
+        <p class="search-hint" id="searchHint">试着输入「苏轼」「明月」或一句你记得的诗。</p>
+        <div class="browse-grid search-results" id="searchResults"></div>
+      </section>
+
+      <section class="browse-section section-block">
+        <div class="section-heading"><div><span class="section-no">04</span><span class="eyebrow">THE COLLECTION</span></div><h2>循类寻章</h2></div>
+        <div class="category-list" id="categoryList"></div>
+        <div class="browse-grid" id="browseGrid"></div>
+      </section>
+
+      <section class="detail-section section-block" id="detailSection">
+        <div class="section-heading"><div><span class="section-no">05</span><span class="eyebrow">READING NOTES</span></div><h2>细读与赏析</h2></div>
+        <div id="detailContent" class="detail-content"><div class="detail-empty">从上方选择一篇作品，开启细读。</div></div>
+      </section>
+      <section class="about-section"><span class="about-seal">文</span><p class="eyebrow">A LITTLE PLACE FOR WORDS</p><h2>愿你在匆忙里，<br>仍有时间读一首诗。</h2><p>以文字为笺，以岁月为墨。</p></section>
+    </div>
+
+    <section id="pageView" class="page-view" hidden>
+      <div class="section-heading"><div><span class="section-no">MY LIBRARY</span><span class="eyebrow">PERSONAL ARCHIVE</span></div><h2 id="pageTitle">我的收藏</h2></div>
+      <p class="page-description" id="pageDescription"></p>
+      <div class="browse-grid" id="pageGrid"></div>
+    </section>
+  </main>
+
+  <footer><span>诗词拾光 · LITTLE POETRY</span><span>留一页给喜欢的文字。</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
