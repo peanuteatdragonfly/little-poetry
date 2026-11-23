@@ -1758,7 +1758,49 @@ function renderCategories(){$("categoryList").innerHTML=categories.map(c=>`<butt
 function renderBrowse(){const list=poems.filter(p=>activeCategory==="全部"||p.category===activeCategory);$("browseGrid").innerHTML=list.map(poemCard).join("");bindPoemCards($("browseGrid"))}
 function searchPoems(){const q=$("searchInput").value.trim().toLowerCase();const results=$("searchResults");if(!q){results.innerHTML="";$("searchHint").textContent="试着输入「苏轼」「明月」或一句你记得的诗。";return}const found=poems.filter(p=>[p.title,p.author,p.type,p.source,p.category,p.text,p.background,p.appreciation].join(" ").toLowerCase().includes(q));results.innerHTML=found.length?found.map(poemCard).join(""):`<div class="empty-list">没有找到相关作品。换个关键词试试。</div>`;$("searchHint").textContent=`找到 ${found.length} 篇相关作品`;bindPoemCards(results)}
 function updateNavigation(){document.querySelectorAll(".nav-btn").forEach(btn=>btn.classList.toggle("active",btn.dataset.page===activePage))}
-function renderPageList(){const home=activePage==="home",profile=activePage==="profile";$("homeView").hidden=!home;$("pageView").hidden=home||profile;$("profileView").hidden=!profile;if(home)return;if(profile){if(window.poetryAccount)window.poetryAccount.renderProfile();return;}const isFav=activePage==="favorites";const ids=isFav?favorites:history;$("pageTitle").textContent=isFav?"我的收藏":"阅读足迹";$("pageDescription").textContent=isFav?`已收藏 ${ids.length} 篇作品。喜欢的文字会留在这里。`:`最近阅读的 ${ids.length} 篇作品，最多保留 50 条记录。`;$("pageGrid").innerHTML=ids.map(getPoem).filter(Boolean).map(poemCard).join("")||`<div class="empty-list">这里暂时还没有作品。去阅览室拾取一篇喜欢的文字吧。</div>`;bindPoemCards($("pageGrid"))}
+function renderPageList() {
+    const home = activePage === "home";
+    const profile = activePage === "profile";
+
+    // 记录当前所在的页面，供动态背景识别
+    document.body.dataset.page = activePage;
+
+    $("homeView").hidden = !home;
+    $("pageView").hidden = home || profile;
+    $("profileView").hidden = !profile;
+
+    if (home) return;
+
+    if (profile) {
+        if (window.poetryAccount) {
+            window.poetryAccount.renderProfile();
+        }
+        return;
+    }
+
+    const isFav = activePage === "favorites";
+    const ids = isFav ? favorites : history;
+
+    $("pageTitle").textContent = isFav
+        ? "我的收藏"
+        : "阅读足迹";
+
+    $("pageDescription").textContent = isFav
+        ? `已收藏 ${ids.length} 篇作品。喜欢的文字会留在这里。`
+        : `最近阅读的 ${ids.length} 篇作品，最多保留 50 条记录。`;
+
+    $("pageGrid").innerHTML =
+        ids.map(getPoem)
+        .filter(Boolean)
+        .map(poemCard)
+        .join("")
+        || `<div class="empty-list">
+            这里暂时还没有作品。去阅览室拾取一篇喜欢的文字吧。
+        </div>`;
+
+    bindPoemCards($("pageGrid"));
+}
+
 document.querySelectorAll(".nav-btn").forEach(btn=>btn.addEventListener("click",()=>{activePage=btn.dataset.page;updateNavigation();renderPageList();window.scrollTo({top:0,behavior:"smooth"})}));
 $("randomBtn").addEventListener("click",randomPoem);$("favoriteBtn").addEventListener("click",toggleFavorite);$("copyBtn").addEventListener("click",copyPoem);$("cardBtn").addEventListener("click",createQuoteCard);$("searchInput").addEventListener("input",searchPoems);$("clearSearch").addEventListener("click",()=>{$("searchInput").value="";searchPoems();$("searchInput").focus()});
 // 纸张、字体和竖排偏好保存在本机。
