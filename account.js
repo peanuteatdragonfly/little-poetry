@@ -111,7 +111,14 @@
     try {
       if (mode === "signup") {
         const display_name = $("authName").value.trim() || email.split("@")[0];
-        const { data, error } = await client.auth.signUp({ email, password, options: { data: { display_name } } });
+        const { data, error } = await client.auth.signUp({
+  email,
+  password,
+  options: {
+    data: { display_name },
+    emailRedirectTo: "https://peanuteateddragonfly.github.io/little-poetry/"
+  }
+});
         if (error) throw error;
         if (data.session) { await refreshUser(data.user); closeAuth(); }
         else setMessage("注册请求已提交。请检查邮箱并点击验证链接，再回来登录。");
