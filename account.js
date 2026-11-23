@@ -116,7 +116,7 @@
   password,
   options: {
     data: { display_name },
-    emailRedirectTo: "https://peanuteateddragonfly.github.io/little-poetry/"
+    emailRedirectTo: "https://peanuteatdragonfly.github.io/little-poetry/"
   }
 });
         if (error) throw error;
