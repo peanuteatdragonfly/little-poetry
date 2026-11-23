@@ -25,7 +25,12 @@
       <button class="nav-btn active" data-page="home">阅览室</button>
       <button class="nav-btn" data-page="favorites">我的收藏</button>
       <button class="nav-btn" data-page="history">阅读足迹</button>
+      <button class="nav-btn" data-page="profile">个人空间</button>
     </nav>
+    <div class="account-actions">
+      <span id="accountStatus" class="account-status">尚未登录</span>
+      <button id="accountOpenBtn" class="account-button">登录 / 注册</button>
+    </div>
   </header>
 
   <main class="container" id="top">
@@ -34,7 +39,7 @@
       <div class="hero-copy">
         <p class="eyebrow">A QUIET PLACE FOR WORDS</p>
         <h1>在旧句里，<br><em>读见新意。</em></h1>
-        <p class="hero-desc">把喜欢的诗文收进来。慢慢读，也慢慢记。</p><p class="collection-count" id="collectionCount">馆藏作品 · 63 篇</p>
+        <p class="hero-desc">把喜欢的诗文收进来。慢慢读，也慢慢记。</p><p class="collection-count" id="collectionCount">馆藏作品 · 101 篇</p>
       </div>
       <div class="hero-side"><span class="hero-index">01</span><span class="vertical-note">一字一句，皆有回响</span><span class="hero-rule"></span></div>
     </section>
@@ -98,10 +103,38 @@
       <p class="page-description" id="pageDescription"></p>
       <div class="browse-grid" id="pageGrid"></div>
     </section>
+    <section id="profileView" class="profile-view" hidden>
+      <div class="section-heading"><div><span class="section-no">MY SPACE</span><span class="eyebrow">A PRIVATE READING JOURNAL</span></div><h2>我的诗词空间</h2></div>
+      <div id="profileSignedOut" class="profile-locked"><span class="profile-seal">拾</span><h3>登录后，继续收藏你的文字</h3><p>注册一个账户，即可在不同设备间同步收藏、阅读足迹与摘抄。</p><button id="profileLoginBtn" class="primary-button">登录 / 创建账户</button></div>
+      <div id="profileSignedIn" hidden>
+        <section class="profile-card">
+          <div class="profile-top"><div class="avatar-mark" id="profileAvatar">诗</div><div><p class="eyebrow">READER PROFILE</p><h3 id="profileName">读者</h3><p id="profileEmail" class="profile-email"></p></div><button id="profileLogoutBtn" class="secondary-button">退出登录</button></div>
+          <form id="profileForm" class="profile-edit"><label>显示昵称<input id="profileNameInput" maxlength="30" placeholder="给自己取一个名字"></label><button class="secondary-button" type="submit">保存资料</button></form>
+          <div class="stats-grid"><div><strong id="statFavorites">0</strong><span>收藏作品</span></div><div><strong id="statRead">0</strong><span>阅读作品</span></div><div><strong id="statNotes">0</strong><span>摘抄笔记</span></div></div>
+        </section>
+        <section class="profile-card notes-card">
+          <div class="section-heading"><div><span class="section-no">MY NOTES</span><span class="eyebrow">KEEP THE WORDS</span></div><h2>我的摘抄本</h2></div>
+          <form id="noteForm" class="note-form"><label>摘抄标题<input id="noteTitle" maxlength="80" placeholder="例如：关于春天的句子"></label><label>写下喜欢的文字<textarea id="noteContent" rows="4" maxlength="5000" required placeholder="把想留下的诗句、感受或随笔写在这里……"></textarea></label><label>关联作品（可选）<select id="notePoem"><option value="">不关联作品</option></select></label><button class="primary-button" type="submit">保存摘抄</button></form>
+          <div id="notesList" class="notes-list"><p class="empty-list">还没有摘抄。留下一段喜欢的文字吧。</p></div>
+        </section>
+      </div>
+    </section>
   </main>
+
+  <div class="auth-overlay" id="authOverlay" hidden>
+    <section class="auth-dialog" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <button class="auth-close" id="authCloseBtn" aria-label="关闭">×</button>
+      <p class="eyebrow">LITTLE POETRY ACCOUNT</p><h2 id="authTitle">欢迎回来</h2><p class="auth-subtitle" id="authSubtitle">登录后同步你的私人诗词收藏。</p>
+      <form id="authForm"><label id="authNameWrap" hidden>显示昵称<input id="authName" maxlength="30" placeholder="例如：拾光的人"></label><label>邮箱<input id="authEmail" type="email" autocomplete="email" required placeholder="name@example.com"></label><label>密码<input id="authPassword" type="password" minlength="6" autocomplete="current-password" required placeholder="至少 6 位"></label><button class="primary-button auth-submit" id="authSubmit" type="submit">登录</button></form>
+      <p class="auth-switch" id="authSwitchText">还没有账户？ <button id="authSwitchBtn" type="button">创建账户</button></p><p class="auth-message" id="authMessage" role="status"></p>
+    </section>
+  </div>
 
   <footer><span>诗词拾光 · LITTLE POETRY</span><span>留一页给喜欢的文字。</span></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
   <script src="script.js"></script>
+  <script src="account.js"></script>
 </body>
 </html>
