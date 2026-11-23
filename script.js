@@ -1078,6 +1078,652 @@ const poems = [
   ],
   "background": "本篇选自《全元散曲》，作者为张养浩。作品以文字描绘具体的人物、景物或情境，并由此寄托情感与思考。阅读时可留意题目、意象、语气变化以及结尾如何回应开篇。",
   "appreciation": "作品由潼关险要引出历史兴亡，再将目光落在普通百姓身上。末两句高度凝练，揭示战争与权力更迭中百姓承受的苦难。"
+},
+{
+  "id": 64,
+  "type": "唐诗",
+  "title": "静夜思",
+  "author": "李白",
+  "source": "《李太白集》",
+  "category": "羁旅乡愁",
+  "text": "床前明月光，\n疑是地上霜。\n举头望明月，\n低头思故乡。",
+  "translations": [
+    [
+      "全文译意",
+      "月光照在床前，仿佛地上铺了一层白霜。抬头望见明月，不由得低头思念远方的故乡。"
+    ]
+  ],
+  "background": "本篇作者为李白，作品收入《李太白集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌以月光触发乡思，语言极其简洁。由举头到低头的动作变化，将思念写得含蓄而真切。"
+},
+{
+  "id": 65,
+  "type": "唐诗",
+  "title": "望庐山瀑布",
+  "author": "李白",
+  "source": "《李太白集》",
+  "category": "山水自然",
+  "text": "日照香炉生紫烟，\n遥看瀑布挂前川。\n飞流直下三千尺，\n疑是银河落九天。",
+  "translations": [
+    [
+      "全文译意",
+      "阳光照耀香炉峰，升起紫色云雾。远望瀑布像一条白练挂在山前，水流从高处奔腾而下，仿佛银河从天上倾落。"
+    ]
+  ],
+  "background": "本篇作者为李白，作品收入《李太白集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗人以夸张和比喻写瀑布的壮阔。一个“挂”字化动为静，先呈现远景，再以飞流和银河的想象推向高潮。"
+},
+{
+  "id": 66,
+  "type": "唐诗",
+  "title": "赠汪伦",
+  "author": "李白",
+  "source": "《李太白集》",
+  "category": "友情相逢",
+  "text": "李白乘舟将欲行，\n忽闻岸上踏歌声。\n桃花潭水深千尺，\n不及汪伦送我情。",
+  "translations": [
+    [
+      "全文译意",
+      "李白乘船将要离开，忽然听见岸上传来踏歌送行的声音。桃花潭水纵然有千尺深，也比不上汪伦送别我的情谊。"
+    ]
+  ],
+  "background": "本篇作者为李白，作品收入《李太白集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌从送别现场落笔，以潭水之深衬友情之深。夸张自然亲切，让深厚情谊具有可感的尺度。"
+},
+{
+  "id": 67,
+  "type": "唐诗",
+  "title": "早发白帝城",
+  "author": "李白",
+  "source": "《李太白集》",
+  "category": "山水自然",
+  "text": "朝辞白帝彩云间，\n千里江陵一日还。\n两岸猿声啼不住，\n轻舟已过万重山。",
+  "translations": [
+    [
+      "全文译意",
+      "清晨告别彩云缭绕的白帝城，千里之外的江陵一天便可到达。两岸猿猴的叫声还在耳边回荡，轻快的小船已经越过重重青山。"
+    ]
+  ],
+  "background": "本篇作者为李白，作品收入《李太白集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "全诗节奏明快，写出顺流而下的迅疾与畅快。彩云、猿声、轻舟和群山共同构成开阔灵动的画面。"
+},
+{
+  "id": 68,
+  "type": "唐诗",
+  "title": "闻王昌龄左迁龙标遥有此寄",
+  "author": "李白",
+  "source": "《李太白集》",
+  "category": "友情相逢",
+  "text": "杨花落尽子规啼，\n闻道龙标过五溪。\n我寄愁心与明月，\n随君直到夜郎西。",
+  "translations": [
+    [
+      "全文译意",
+      "杨花落尽，杜鹃声声啼叫。我听说你被贬到龙标，路途要经过五溪。我把忧愁的心意托付给明月，让它一路陪伴你直到夜郎以西。"
+    ]
+  ],
+  "background": "本篇作者为李白，作品收入《李太白集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗人把无形的愁心托付给明月，使明月成为传情的使者。想象奇特而情感真挚，表现了对友人的牵挂。"
+},
+{
+  "id": 69,
+  "type": "唐诗",
+  "title": "黄鹤楼送孟浩然之广陵",
+  "author": "李白",
+  "source": "《李太白集》",
+  "category": "离别思念",
+  "text": "故人西辞黄鹤楼，\n烟花三月下扬州。\n孤帆远影碧空尽，\n唯见长江天际流。",
+  "translations": [
+    [
+      "全文译意",
+      "老朋友在黄鹤楼与我告别，在繁花似锦的暮春前往扬州。船帆的影子渐渐消失在碧空尽头，眼前只剩长江向天边流去。"
+    ]
+  ],
+  "background": "本篇作者为李白，作品收入《李太白集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗中没有直抒离愁，而是把目光长久停留在远去的孤帆上。景物的空阔衬出惜别之情。"
+},
+{
+  "id": 70,
+  "type": "唐诗",
+  "title": "行路难·其一",
+  "author": "李白",
+  "source": "《李太白集》",
+  "category": "人生哲理",
+  "text": "金樽清酒斗十千，\n玉盘珍羞直万钱。\n停杯投箸不能食，\n拔剑四顾心茫然。\n欲渡黄河冰塞川，\n将登太行雪满山。\n闲来垂钓碧溪上，\n忽复乘舟梦日边。\n行路难！行路难！\n多歧路，今安在？\n长风破浪会有时，\n直挂云帆济沧海。",
+  "translations": [
+    [
+      "全文译意",
+      "面对丰盛宴席，诗人却停杯放箸、拔剑四顾。前路仿佛被冰雪阻断，但他仍相信终有一天能乘长风破浪，扬帆渡过沧海。"
+    ]
+  ],
+  "background": "本篇作者为李白，作品收入《李太白集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌由苦闷转向坚定。反复的呼喊写出人生道路的艰难，结尾则以高昂想象表达不甘沉沦的信念。"
+},
+{
+  "id": 71,
+  "type": "唐诗",
+  "title": "春夜喜雨",
+  "author": "杜甫",
+  "source": "《杜工部集》",
+  "category": "四时风物",
+  "text": "好雨知时节，\n当春乃发生。\n随风潜入夜，\n润物细无声。\n野径云俱黑，\n江船火独明。\n晓看红湿处，\n花重锦官城。",
+  "translations": [
+    [
+      "全文译意",
+      "好雨仿佛懂得时节，正当春天万物生长时降临。它伴着春风在夜里悄然落下，无声地滋润万物。夜间田野昏暗，江船灯火独明；清晨再看，锦官城的花朵饱含雨水，显得格外沉重鲜艳。"
+    ]
+  ],
+  "background": "本篇作者为杜甫，作品收入《杜工部集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗人把春雨写得有情有知，细腻表现它及时、温柔、无声的特点。全诗由夜雨写到清晨，充满对春天的喜悦。"
+},
+{
+  "id": 72,
+  "type": "唐诗",
+  "title": "茅屋为秋风所破歌（节选）",
+  "author": "杜甫",
+  "source": "《杜工部集》",
+  "category": "家国情怀",
+  "text": "八月秋高风怒号，\n卷我屋上三重茅。\n……\n安得广厦千万间，\n大庇天下寒士俱欢颜，\n风雨不动安如山。",
+  "translations": [
+    [
+      "全文译意",
+      "八月秋风猛烈，卷走屋顶茅草，诗人一家在风雨中艰难度日。由自身困境，他进一步想到天下受寒受苦的人，盼望有千万间宽敞房屋庇护他们。"
+    ]
+  ],
+  "background": "本篇作者为杜甫，作品收入《杜工部集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "作品由个人遭遇推及天下寒士，情感逐层扩展。结尾的愿望超越一己得失，体现杜甫深厚的忧民情怀。"
+},
+{
+  "id": 73,
+  "type": "唐诗",
+  "title": "绝句·两个黄鹂鸣翠柳",
+  "author": "杜甫",
+  "source": "《杜工部集》",
+  "category": "山水自然",
+  "text": "两个黄鹂鸣翠柳，\n一行白鹭上青天。\n窗含西岭千秋雪，\n门泊东吴万里船。",
+  "translations": [
+    [
+      "全文译意",
+      "两只黄鹂在翠绿柳枝间鸣叫，一行白鹭飞向青天。窗外可见西岭终年不化的积雪，门前停泊着来自遥远东吴的船只。"
+    ]
+  ],
+  "background": "本篇作者为杜甫，作品收入《杜工部集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗人以鲜明色彩和远近层次组织画面。黄、翠、白、青交相映衬，近景与远景相连，展现明朗开阔的春日景象。"
+},
+{
+  "id": 74,
+  "type": "唐诗",
+  "title": "江雪",
+  "author": "柳宗元",
+  "source": "《柳河东集》",
+  "category": "月色清寂",
+  "text": "千山鸟飞绝，\n万径人踪灭。\n孤舟蓑笠翁，\n独钓寒江雪。",
+  "translations": [
+    [
+      "全文译意",
+      "群山中看不到飞鸟，所有道路上都没有行人的踪迹。只有一位披蓑戴笠的老翁，独自在大雪覆盖的寒江上垂钓。"
+    ]
+  ],
+  "background": "本篇作者为柳宗元，作品收入《柳河东集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "前两句写极端空寂，后两句突出孤舟老翁。天地越是空阔，人物的孤独与坚守越鲜明。"
+},
+{
+  "id": 75,
+  "type": "唐诗",
+  "title": "悯农·其一",
+  "author": "李绅",
+  "source": "《全唐诗》",
+  "category": "民生百态",
+  "text": "春种一粒粟，\n秋收万颗子。\n四海无闲田，\n农夫犹饿死。",
+  "translations": [
+    [
+      "全文译意",
+      "春天播下一粒种子，秋天便能收获许多粮食。天下田地几乎都被耕种，农民却仍有人饿死。"
+    ]
+  ],
+  "background": "本篇作者为李绅，作品收入《全唐诗》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌以丰收与饥饿形成强烈对照，揭示劳动者付出与生活境遇之间的矛盾，语言简短而有批判力量。"
+},
+{
+  "id": 76,
+  "type": "唐诗",
+  "title": "游子吟",
+  "author": "孟郊",
+  "source": "《孟东野诗集》",
+  "category": "亲情记忆",
+  "text": "慈母手中线，\n游子身上衣。\n临行密密缝，\n意恐迟迟归。\n谁言寸草心，\n报得三春晖。",
+  "translations": [
+    [
+      "全文译意",
+      "慈母用手中的针线，为即将远行的孩子缝制衣服。临行前针脚缝得细密，只担心孩子迟迟不能归来。谁说小草般微弱的孝心，能够报答春日阳光般深厚的母爱呢？"
+    ]
+  ],
+  "background": "本篇作者为孟郊，作品收入《孟东野诗集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌从日常的缝衣细节写起，以春日阳光比喻母爱。结尾设问将母恩的深厚与子女报答能力的有限并置。"
+},
+{
+  "id": 77,
+  "type": "唐诗",
+  "title": "题都城南庄",
+  "author": "崔护",
+  "source": "《全唐诗》",
+  "category": "爱情情感",
+  "text": "去年今日此门中，\n人面桃花相映红。\n人面不知何处去，\n桃花依旧笑春风。",
+  "translations": [
+    [
+      "全文译意",
+      "去年今日，在这户人家的门前，姑娘的脸庞与桃花相映，格外红润。如今不知姑娘去了哪里，桃花却仍在春风中盛开。"
+    ]
+  ],
+  "background": "本篇作者为崔护，作品收入《全唐诗》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌以桃花依旧、人面不见的对照写物是人非。春景仍然明媚，反而加深了追忆中的惆怅。"
+},
+{
+  "id": 78,
+  "type": "唐诗",
+  "title": "乌衣巷",
+  "author": "刘禹锡",
+  "source": "《刘禹锡集》",
+  "category": "历史名著",
+  "text": "朱雀桥边野草花，\n乌衣巷口夕阳斜。\n旧时王谢堂前燕，\n飞入寻常百姓家。",
+  "translations": [
+    [
+      "全文译意",
+      "朱雀桥边长满野草，乌衣巷口夕阳西斜。当年栖息在王导、谢安豪门厅堂前的燕子，如今飞入普通百姓家中。"
+    ]
+  ],
+  "background": "本篇作者为刘禹锡，作品收入《刘禹锡集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗人借燕子的栖居变化，写出世家兴衰与历史变迁。没有直接议论，却在寻常景物中寄寓深沉感慨。"
+},
+{
+  "id": 79,
+  "type": "唐诗",
+  "title": "酬乐天扬州初逢席上见赠",
+  "author": "刘禹锡",
+  "source": "《刘禹锡集》",
+  "category": "人生哲理",
+  "text": "巴山楚水凄凉地，\n二十三年弃置身。\n怀旧空吟闻笛赋，\n到乡翻似烂柯人。\n沉舟侧畔千帆过，\n病树前头万木春。\n今日听君歌一曲，\n暂凭杯酒长精神。",
+  "translations": [
+    [
+      "全文译意",
+      "诗人回顾多年贬谪生活，感叹故友凋零、归乡恍如隔世。但沉船旁仍有千帆驶过，病树前仍有万木逢春。今日听友人作诗，暂借酒意振作精神。"
+    ]
+  ],
+  "background": "本篇作者为刘禹锡，作品收入《刘禹锡集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌将身世之感与开阔胸襟结合。“沉舟”“病树”之后出现“千帆”“万木”，表现新事物不断发展的生命力量。"
+},
+{
+  "id": 80,
+  "type": "唐诗",
+  "title": "赋得古原草送别",
+  "author": "白居易",
+  "source": "《白氏长庆集》",
+  "category": "人生哲理",
+  "text": "离离原上草，\n一岁一枯荣。\n野火烧不尽，\n春风吹又生。\n远芳侵古道，\n晴翠接荒城。\n又送王孙去，\n萋萋满别情。",
+  "translations": [
+    [
+      "全文译意",
+      "原野上的草茂盛生长，每年经历枯萎与繁荣。野火无法将它烧尽，春风吹来又会萌发生长。芳草蔓延古道，翠色连接荒城，眼前景象也寄托着送别之情。"
+    ]
+  ],
+  "background": "本篇作者为白居易，作品收入《白氏长庆集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌以野草年年复生象征顽强生命力。前半写草的荣枯，后半转入送别，景与情自然相融。"
+},
+{
+  "id": 81,
+  "type": "唐诗",
+  "title": "钱塘湖春行",
+  "author": "白居易",
+  "source": "《白氏长庆集》",
+  "category": "四时风物",
+  "text": "孤山寺北贾亭西，\n水面初平云脚低。\n几处早莺争暖树，\n谁家新燕啄春泥。\n乱花渐欲迷人眼，\n浅草才能没马蹄。\n最爱湖东行不足，\n绿杨阴里白沙堤。",
+  "translations": [
+    [
+      "全文译意",
+      "诗人从孤山寺、贾亭一带出发，看到湖水初涨、云层低垂。早莺争向暖树，新燕衔泥筑巢，花渐繁、草初长，最令人喜爱的是绿杨掩映的白沙堤。"
+    ]
+  ],
+  "background": "本篇作者为白居易，作品收入《白氏长庆集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌抓住早春尚未完全铺展的细节。莺、燕、花、草都带着初生的气息，表现诗人游湖时轻快愉悦的心情。"
+},
+{
+  "id": 82,
+  "type": "唐诗",
+  "title": "琵琶行（并序）（节选）",
+  "author": "白居易",
+  "source": "《白氏长庆集》",
+  "category": "人生际遇",
+  "text": "浔阳江头夜送客，\n枫叶荻花秋瑟瑟。\n……\n同是天涯沦落人，\n相逢何必曾相识。",
+  "translations": [
+    [
+      "全文译意",
+      "诗人在浔阳江边送客时，听见琵琶女演奏，继而了解她由盛而衰的人生经历。诗人联想到自己的贬谪遭遇，发出同为失意漂泊之人的感叹。"
+    ]
+  ],
+  "background": "本篇作者为白居易，作品收入《白氏长庆集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "作品以音乐描写为核心，将琵琶女的身世与诗人的遭际交织起来。人物虽不相识，却因相似的命运产生深切共鸣。"
+},
+{
+  "id": 83,
+  "type": "唐诗",
+  "title": "无题·相见时难别亦难",
+  "author": "李商隐",
+  "source": "《李义山诗集》",
+  "category": "爱情情感",
+  "text": "相见时难别亦难，\n东风无力百花残。\n春蚕到死丝方尽，\n蜡炬成灰泪始干。\n晓镜但愁云鬓改，\n夜吟应觉月光寒。\n蓬山此去无多路，\n青鸟殷勤为探看。",
+  "translations": [
+    [
+      "全文译意",
+      "相见已经很难，离别更令人难舍，暮春东风无力，百花凋残。思念如春蚕吐丝直到生命尽头，又如蜡烛燃尽才停止流泪。诗人盼望传信之人替自己探望远方的人。"
+    ]
+  ],
+  "background": "本篇作者为李商隐，作品收入《李义山诗集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌以春蚕、蜡炬比喻绵长而执着的情感。意象层层推进，将离别的痛苦写得深沉而含蓄。"
+},
+{
+  "id": 84,
+  "type": "唐诗",
+  "title": "夜雨寄北",
+  "author": "李商隐",
+  "source": "《李义山诗集》",
+  "category": "离别思念",
+  "text": "君问归期未有期，\n巴山夜雨涨秋池。\n何当共剪西窗烛，\n却话巴山夜雨时。",
+  "translations": [
+    [
+      "全文译意",
+      "你问我何时归来，我还无法确定。巴山夜雨连绵，秋池水涨。不知何时才能与你在西窗下共剪烛花，再回头谈起今夜的雨。"
+    ]
+  ],
+  "background": "本篇作者为李商隐，作品收入《李义山诗集》。诗歌通过具体景物、人物或生活场景展开，体现唐代诗歌重视意境、情感与语言锤炼的特点。",
+  "appreciation": "诗歌把眼前孤独与未来团聚的想象交织起来。结尾设想重逢时谈论此夜，令此刻的思念更加绵长。"
+},
+{
+  "id": 85,
+  "type": "宋词",
+  "title": "蝶恋花·春景",
+  "author": "苏轼",
+  "source": "《东坡乐府》",
+  "category": "人生哲理",
+  "text": "花褪残红青杏小。燕子飞时，绿水人家绕。\n枝上柳绵吹又少，天涯何处无芳草。",
+  "translations": [
+    [
+      "全文译意",
+      "暮春时节，红花渐落，枝头结出小小青杏。燕子飞过，绿水环绕人家。柳絮越来越少，但天涯处处仍有芳草。"
+    ]
+  ],
+  "background": "本篇作者为苏轼，作品见《东坡乐府》。词体依曲调填写，长短句错落，常借景物、场景和语气变化表达复杂情绪。",
+  "appreciation": "词从暮春惜春写起，却没有沉溺于伤感。结尾以芳草遍天涯打开视野，呈现旷达而富有生命力的态度。"
+},
+{
+  "id": 86,
+  "type": "宋词",
+  "title": "浣溪沙·游蕲水清泉寺",
+  "author": "苏轼",
+  "source": "《东坡乐府》",
+  "category": "人生哲理",
+  "text": "山下兰芽短浸溪，\n松间沙路净无泥，\n萧萧暮雨子规啼。\n谁道人生无再少？\n门前流水尚能西，\n休将白发唱黄鸡。",
+  "translations": [
+    [
+      "全文译意",
+      "山下兰草新芽浸在溪水中，松林间的沙路洁净无泥，暮雨中传来杜鹃啼声。谁说人生不能重新焕发青春？门前流水尚且能向西流，不必因年华渐老而徒然叹息。"
+    ]
+  ],
+  "background": "本篇作者为苏轼，作品见《东坡乐府》。词体依曲调填写，长短句错落，常借景物、场景和语气变化表达复杂情绪。",
+  "appreciation": "上片写清新幽静的春日景色，下片由流水向西生发人生感悟。词人以自然现象回应衰老之叹，表现积极乐观的精神。"
+},
+{
+  "id": 87,
+  "type": "宋词",
+  "title": "江城子·密州出猎（节选）",
+  "author": "苏轼",
+  "source": "《东坡乐府》",
+  "category": "家国情怀",
+  "text": "老夫聊发少年狂，左牵黄，右擎苍。……\n会挽雕弓如满月，西北望，射天狼。",
+  "translations": [
+    [
+      "全文译意",
+      "词人描写自己在密州出猎时的豪迈情景：牵黄犬、架苍鹰，随从众多，气势雄壮。他希望得到报国机会，拉满弓箭射向象征西北边患的天狼星。"
+    ]
+  ],
+  "background": "本篇作者为苏轼，作品见《东坡乐府》。词体依曲调填写，长短句错落，常借景物、场景和语气变化表达复杂情绪。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "作品突破婉约词常见的细腻抒情，以开阔场面和强烈动作展现豪情。结尾把出猎愿望升华为报国志向。"
+},
+{
+  "id": 88,
+  "type": "宋词",
+  "title": "定风波·常羡人间琢玉郎",
+  "author": "苏轼",
+  "source": "《东坡乐府》",
+  "category": "人生哲理",
+  "text": "常羡人间琢玉郎，天应乞与点酥娘。\n尽道清歌传皓齿，风起，雪飞炎海变清凉。",
+  "translations": [
+    [
+      "全文译意",
+      "词中赞美一位风度出众的男子与善歌的女子。女子歌声清越，仿佛能使炎热之地顿时清凉。"
+    ]
+  ],
+  "background": "本篇作者为苏轼，作品见《东坡乐府》。词体依曲调填写，长短句错落，常借景物、场景和语气变化表达复杂情绪。",
+  "appreciation": "作品以轻快笔调赞赏人物风采和歌声之美，语言灵动，想象富有画面感。"
+},
+{
+  "id": 89,
+  "type": "宋词",
+  "title": "雨霖铃·寒蝉凄切（节选）",
+  "author": "柳永",
+  "source": "《乐章集》",
+  "category": "离别思念",
+  "text": "寒蝉凄切，对长亭晚，骤雨初歇。\n……\n多情自古伤离别，更那堪冷落清秋节。\n今宵酒醒何处？杨柳岸，晓风残月。",
+  "translations": [
+    [
+      "全文译意",
+      "秋蝉凄切，长亭日暮，一场急雨刚刚停歇。恋人即将分别，词人想象离别后酒醒时，自己将面对杨柳岸、清晨风和残月。"
+    ]
+  ],
+  "background": "本篇作者为柳永，作品见《乐章集》。词体依曲调填写，长短句错落，常借景物、场景和语气变化表达复杂情绪。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "词作以铺叙手法写离别过程。眼前景、临别情与未来孤独层层推进，“杨柳岸，晓风残月”以清冷景物凝结离愁。"
+},
+{
+  "id": 90,
+  "type": "宋词",
+  "title": "八声甘州·对潇潇暮雨洒江天（节选）",
+  "author": "柳永",
+  "source": "《乐章集》",
+  "category": "羁旅乡愁",
+  "text": "对潇潇暮雨洒江天，一番洗清秋。\n……\n不忍登高临远，望故乡渺邈，归思难收。",
+  "translations": [
+    [
+      "全文译意",
+      "暮雨洗净秋日天空，江天辽阔。词人登高远望，却因故乡遥远、归期难定而不忍久看，思乡之情难以收束。"
+    ]
+  ],
+  "background": "本篇作者为柳永，作品见《乐章集》。词体依曲调填写，长短句错落，常借景物、场景和语气变化表达复杂情绪。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "词人将秋日江天的开阔与羁旅者内心的孤独并置。景物越辽远，归思越难排遣。"
+},
+{
+  "id": 91,
+  "type": "宋词",
+  "title": "破阵子·为陈同甫赋壮词以寄之（节选）",
+  "author": "辛弃疾",
+  "source": "《稼轩长短句》",
+  "category": "家国情怀",
+  "text": "醉里挑灯看剑，梦回吹角连营。\n……\n了却君王天下事，赢得生前身后名。可怜白发生！",
+  "translations": [
+    [
+      "全文译意",
+      "词人醉后挑灯看剑，梦中回到军营，听见号角、战马奔腾，想象自己率军杀敌、建功立业。梦醒后却发现壮志难酬，徒然白发已生。"
+    ]
+  ],
+  "background": "本篇作者为辛弃疾，作品见《稼轩长短句》。词体依曲调填写，长短句错落，常借景物、场景和语气变化表达复杂情绪。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "上片写梦境中的豪壮军旅，下片写现实中的失意。结尾从雄壮骤然跌回衰老，形成强烈反差。"
+},
+{
+  "id": 92,
+  "type": "宋词",
+  "title": "渔家傲·秋思（节选）",
+  "author": "范仲淹",
+  "source": "《范文正公集》",
+  "category": "家国情怀",
+  "text": "塞下秋来风景异，衡阳雁去无留意。\n……\n浊酒一杯家万里，燕然未勒归无计。",
+  "translations": [
+    [
+      "全文译意",
+      "边塞秋景与内地不同，大雁向南飞去。军中号角声起，千嶂之间暮霭沉沉。将士饮酒思乡，却因战事未平、功业未成而无法归家。"
+    ]
+  ],
+  "background": "本篇作者为范仲淹，作品见《范文正公集》。词体依曲调填写，长短句错落，常借景物、场景和语气变化表达复杂情绪。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "词作将边塞风光、军旅生活与思乡报国之情结合。苍凉景色烘托将士复杂的内心世界。"
+},
+{
+  "id": 93,
+  "type": "先秦诗歌",
+  "title": "采薇（节选）",
+  "author": "佚名",
+  "source": "《诗经·小雅》",
+  "category": "羁旅乡愁",
+  "text": "采薇采薇，薇亦作止。曰归曰归，岁亦莫止。\n……\n昔我往矣，杨柳依依。今我来思，雨雪霏霏。",
+  "translations": [
+    [
+      "全文译意",
+      "采薇的人一次次采薇，薇菜渐渐长出。口中不断说着归去，岁末却仍未归来。诗末回忆出征时杨柳依依，归来时已是雨雪纷飞。"
+    ]
+  ],
+  "background": "本篇出自《诗经·小雅》，作者不详。作品保留了先秦诗歌的重章复沓或质朴表达，可结合当时的社会生活与礼俗理解。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "作品以反复章法表现戍役生活的漫长。结尾用出征与归来的景物对照，将时间流逝和人生悲苦凝聚在四句之中。"
+},
+{
+  "id": 94,
+  "type": "先秦诗歌",
+  "title": "硕鼠（节选）",
+  "author": "佚名",
+  "source": "《诗经·魏风》",
+  "category": "民生百态",
+  "text": "硕鼠硕鼠，无食我黍！三岁贯女，莫我肯顾。\n……\n逝将去女，适彼乐土。",
+  "translations": [
+    [
+      "全文译意",
+      "诗人把贪婪者比作大老鼠，控诉其长期索取粮食却不顾百姓死活。忍无可忍的人们决心离开，寻找可以安居的乐土。"
+    ]
+  ],
+  "background": "本篇出自《诗经·魏风》，作者不详。作品保留了先秦诗歌的重章复沓或质朴表达，可结合当时的社会生活与礼俗理解。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "作品以反复呼告形成强烈控诉，借老鼠形象表达对剥削压迫的不满，也写出人们对自由生活的向往。"
+},
+{
+  "id": 95,
+  "type": "先秦诗歌",
+  "title": "无衣",
+  "author": "佚名",
+  "source": "《诗经·秦风》",
+  "category": "家国情怀",
+  "text": "岂曰无衣？与子同袍。\n王于兴师，修我戈矛，与子同仇！\n岂曰无衣？与子同泽。\n王于兴师，修我矛戟，与子偕作！\n岂曰无衣？与子同裳。\n王于兴师，修我甲兵，与子偕行！",
+  "translations": [
+    [
+      "全文译意",
+      "谁说没有衣服？我与你共穿战袍。国家征召出兵，我们便整修兵器，与同伴共同抗敌。诗歌反复表达同袍、同泽、同裳的团结情谊。"
+    ]
+  ],
+  "background": "本篇出自《诗经·秦风》，作者不详。作品保留了先秦诗歌的重章复沓或质朴表达，可结合当时的社会生活与礼俗理解。",
+  "appreciation": "全诗采用重章叠句，节奏铿锵。衣物与兵器的递进，写出战友之间同甘共苦、并肩作战的集体精神。"
+},
+{
+  "id": 96,
+  "type": "楚辞",
+  "title": "国殇（节选）",
+  "author": "屈原",
+  "source": "《九歌》",
+  "category": "家国情怀",
+  "text": "操吴戈兮被犀甲，车错毂兮短兵接。\n……\n身既死兮神以灵，魂魄毅兮为鬼雄。",
+  "translations": [
+    [
+      "全文译意",
+      "战士手持吴戈、身披犀甲，在车轮交错、短兵相接的战场上奋勇作战。即使身躯已经牺牲，英魂仍然刚毅不屈，成为鬼中雄杰。"
+    ]
+  ],
+  "background": "本篇出自屈原《九歌》，属于楚辞作品。作品以楚地祭祀文化和浪漫想象为背景，语言富有节奏感与象征意味。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "作品描绘激烈悲壮的战斗场面，歌颂为国捐躯的将士。结尾把死亡转化为精神不朽，庄严而有力量。"
+},
+{
+  "id": 97,
+  "type": "古文",
+  "title": "出师表（节选）",
+  "author": "诸葛亮",
+  "source": "《诸葛亮集》",
+  "category": "家国情怀",
+  "text": "先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。\n……\n今当远离，临表涕零，不知所言。",
+  "translations": [
+    [
+      "全文译意",
+      "诸葛亮向后主分析蜀汉面临的危局，提出广开言路、赏罚公平、亲贤远佞等建议，并回顾自己受先帝知遇之恩，表达北定中原、报答托付的决心。"
+    ]
+  ],
+  "background": "本篇作者为诸葛亮，选自《诸葛亮集》。文章围绕治国、修身、山水或人生感悟展开，体现古代散文以叙事、议论和抒情传达思想的特点。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "文章以恳切语气陈述国家形势与治国建议，又以个人经历说明忠诚的由来。叙事、议论和抒情交织，情感深沉。"
+},
+{
+  "id": 98,
+  "type": "古文",
+  "title": "劝学（节选）",
+  "author": "荀子",
+  "source": "《荀子·劝学》",
+  "category": "学习求知",
+  "text": "君子曰：学不可以已。\n青，取之于蓝，而青于蓝；冰，水为之，而寒于水。\n……\n故不积跬步，无以至千里；不积小流，无以成江海。",
+  "translations": [
+    [
+      "全文译意",
+      "学习不可以停止。靛青从蓝草中提取，却比蓝草更青；冰由水凝结，却比水更寒。知识与品德的提升需要持续积累，不积累小步就无法到达千里，不汇聚细流就不能形成江海。"
+    ]
+  ],
+  "background": "本篇作者为荀子，选自《荀子·劝学》。文章围绕治国、修身、山水或人生感悟展开，体现古代散文以叙事、议论和抒情传达思想的特点。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "文章通过比喻论证学习的重要性，强调后天学习、反复积累和持之以恒。语言层层推进，说理明晰有力。"
+},
+{
+  "id": 99,
+  "type": "古文",
+  "title": "生于忧患，死于安乐（节选）",
+  "author": "孟子",
+  "source": "《孟子·告子下》",
+  "category": "人生哲理",
+  "text": "故天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身……然后知生于忧患而死于安乐也。",
+  "translations": [
+    [
+      "全文译意",
+      "上天要把重大责任交给一个人，往往先使他经受思想、身体和生活上的磨炼。一个国家若缺少内部忧患和外部威胁，也可能走向衰亡。"
+    ]
+  ],
+  "background": "本篇作者为孟子，选自《孟子·告子下》。文章围绕治国、修身、山水或人生感悟展开，体现古代散文以叙事、议论和抒情传达思想的特点。本条为节选，正文以省略号标示删节处，便于先读核心段落。",
+  "appreciation": "文章先列举古代人物在困境中成长的例子，再从个人推及国家，论证忧患能够促人成长，安逸可能使人懈怠。"
+},
+{
+  "id": 100,
+  "type": "元曲",
+  "title": "天净沙·秋",
+  "author": "白朴",
+  "source": "《天籁集》",
+  "category": "四时风物",
+  "text": "孤村落日残霞，\n轻烟老树寒鸦，\n一点飞鸿影下。\n青山绿水，\n白草红叶黄花。",
+  "translations": [
+    [
+      "全文译意",
+      "夕阳映照着孤村和残霞，轻烟笼罩老树，寒鸦栖息其间。一只大雁掠过天际。青山绿水之间，白草、红叶与黄花构成秋日色彩。"
+    ]
+  ],
+  "background": "本篇作者为白朴，收入《天籁集》。元曲语言较为灵活，善于以简练意象和口语化表达呈现生活感受与历史思考。",
+  "appreciation": "曲中先写萧瑟的暮景，再以青山绿水和多彩植物收束。色彩丰富，打破了秋景只能悲凉的单一印象。"
+},
+{
+  "id": 101,
+  "type": "元曲",
+  "title": "天净沙·春",
+  "author": "白朴",
+  "source": "《天籁集》",
+  "category": "四时风物",
+  "text": "春山暖日和风，阑干楼阁帘栊，杨柳秋千院中。\n啼莺舞燕，小桥流水飞红。",
+  "translations": [
+    [
+      "全文译意",
+      "春日山色温暖，阳光和煦，楼阁帘栊静静伫立。庭院中杨柳轻拂秋千，黄莺啼叫、燕子飞舞，小桥流水间飘落着花瓣。"
+    ]
+  ],
+  "background": "本篇作者为白朴，收入《天籁集》。元曲语言较为灵活，善于以简练意象和口语化表达呈现生活感受与历史思考。",
+  "appreciation": "小令以简练意象描绘春日庭院。动静结合，画面明丽轻盈，结尾的落花又为春景添上一丝流动感。"
 }
 ];
 
@@ -1094,7 +1740,7 @@ $("todayDate").textContent=`${today.getFullYear()}.${String(today.getMonth()+1).
 const countEl=$("collectionCount");if(countEl)countEl.textContent=`馆藏作品 · ${poems.length} 篇`;
 function getPoem(id){return poems.find(p=>p.id===Number(id))}
 function showToast(message){const el=$("toast");el.textContent=message;el.classList.add("show");clearTimeout(showToast.timer);showToast.timer=setTimeout(()=>el.classList.remove("show"),1800)}
-function addHistory(id){history=[Number(id),...history.filter(x=>Number(x)!==Number(id))].slice(0,50);saveStorage(STORAGE.history,history)}
+function addHistory(id){history=[Number(id),...history.filter(x=>Number(x)!==Number(id))].slice(0,50);saveStorage(STORAGE.history,history);window.dispatchEvent(new CustomEvent("poetry:history",{detail:{id:Number(id)}}))}
 function escapeHTML(value){return String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function poemCard(poem){return `<article class="poem-item" data-id="${poem.id}" tabindex="0" role="button"><h3>${escapeHTML(poem.title)}</h3><p>${escapeHTML(poem.text.replace(/\n/g," "))}</p><small>${escapeHTML(poem.author)} · ${escapeHTML(poem.category)}</small></article>`}
 function bindPoemCards(root){root.querySelectorAll(".poem-item").forEach(item=>{const open=()=>selectPoem(item.dataset.id,true);item.addEventListener("click",open);item.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();open()}})})}
@@ -1104,7 +1750,7 @@ function selectPoem(id,scroll=false){currentPoem=getPoem(id);if(!currentPoem)ret
 function randomPoem(){let list=poems.filter(p=>activeCategory==="全部"||p.category===activeCategory);if(!list.length)list=poems;let pool=list.filter(p=>!currentPoem||p.id!==currentPoem.id);const p=(pool.length?pool:list)[Math.floor(Math.random()*(pool.length||list.length))];selectPoem(p.id,false)}
 function renderReadingCard(){const p=currentPoem;$("readingCard").innerHTML=`<div class="poem-content"><span class="poem-type">${escapeHTML(p.type)} · ${escapeHTML(p.category)}</span><h2>${escapeHTML(p.text)}</h2><p class="author">—— ${escapeHTML(p.author)}《${escapeHTML(p.title)}》</p><p class="poem-category">${escapeHTML(p.source)}</p></div>`;["favoriteBtn","copyBtn","cardBtn"].forEach(id=>$(id).disabled=false)}
 function updateFavoriteButton(){if(!currentPoem)return;const yes=favorites.includes(currentPoem.id);$("favoriteBtn").textContent=yes?"♥ 已收藏":"♡ 收藏"}
-function toggleFavorite(){if(!currentPoem)return;const id=currentPoem.id;if(favorites.includes(id)){favorites=favorites.filter(x=>x!==id);showToast("已从收藏中移除")}else{favorites.unshift(id);showToast("已收入收藏")}saveStorage(STORAGE.favorites,favorites);updateFavoriteButton();if(activePage==="favorites")renderPageList()}
+function toggleFavorite(){if(!currentPoem)return;const id=currentPoem.id;if(favorites.includes(id)){favorites=favorites.filter(x=>x!==id);showToast("已从收藏中移除")}else{favorites.unshift(id);showToast("已收入收藏")}saveStorage(STORAGE.favorites,favorites);updateFavoriteButton();if(activePage==="favorites")renderPageList();window.dispatchEvent(new CustomEvent("poetry:favorite",{detail:{id:Number(id),isFavorite:favorites.includes(Number(id))}}))}
 async function copyText(text){try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(text)}else{const area=document.createElement("textarea");area.value=text;area.style.position="fixed";area.style.opacity="0";document.body.appendChild(area);area.select();document.execCommand("copy");area.remove()}showToast("内容已复制")}catch{showToast("复制失败，请手动选择文字")}}
 function copyPoem(){if(!currentPoem)return;copyText(`${currentPoem.text}\n\n—— ${currentPoem.author}《${currentPoem.title}》\n出处：${currentPoem.source}`)}
 function renderDetail(){const p=currentPoem;const lines=p.translations.map(row=>`<div class="translation-line"><strong>${escapeHTML(row[0])}</strong><p>${escapeHTML(row[1])}</p></div>`).join("");$("detailContent").innerHTML=`<h2 class="detail-title">${escapeHTML(p.title)}</h2><p class="detail-author">${escapeHTML(p.author)} · ${escapeHTML(p.source)} · ${escapeHTML(p.type)}</p><div class="detail-block"><h3>一、作品原文</h3><p class="detail-original">${escapeHTML(p.text)}</p></div><div class="detail-block"><h3>二、逐句翻译</h3>${lines}</div><div class="detail-block"><h3>三、创作背景</h3><p>${escapeHTML(p.background)}</p></div><div class="detail-block"><h3>四、文学赏析</h3><p>${escapeHTML(p.appreciation)}</p></div><div class="detail-block"><h3>五、作品信息</h3><p>作者：${escapeHTML(p.author)}</p><p>出处：${escapeHTML(p.source)}</p><p>分类：${escapeHTML(p.category)}</p></div><div class="detail-actions"><button id="detailCopyBtn">复制这篇作品</button><button id="detailCardBtn">制作摘抄卡片</button></div>`;$("detailCopyBtn").onclick=copyPoem;$("detailCardBtn").onclick=createQuoteCard}
@@ -1112,7 +1758,7 @@ function renderCategories(){$("categoryList").innerHTML=categories.map(c=>`<butt
 function renderBrowse(){const list=poems.filter(p=>activeCategory==="全部"||p.category===activeCategory);$("browseGrid").innerHTML=list.map(poemCard).join("");bindPoemCards($("browseGrid"))}
 function searchPoems(){const q=$("searchInput").value.trim().toLowerCase();const results=$("searchResults");if(!q){results.innerHTML="";$("searchHint").textContent="试着输入「苏轼」「明月」或一句你记得的诗。";return}const found=poems.filter(p=>[p.title,p.author,p.type,p.source,p.category,p.text,p.background,p.appreciation].join(" ").toLowerCase().includes(q));results.innerHTML=found.length?found.map(poemCard).join(""):`<div class="empty-list">没有找到相关作品。换个关键词试试。</div>`;$("searchHint").textContent=`找到 ${found.length} 篇相关作品`;bindPoemCards(results)}
 function updateNavigation(){document.querySelectorAll(".nav-btn").forEach(btn=>btn.classList.toggle("active",btn.dataset.page===activePage))}
-function renderPageList(){const home=activePage==="home";$("homeView").hidden=!home;$("pageView").hidden=home;if(home)return;const isFav=activePage==="favorites";const ids=isFav?favorites:history;$("pageTitle").textContent=isFav?"我的收藏":"阅读足迹";$("pageDescription").textContent=isFav?`已收藏 ${ids.length} 篇作品。喜欢的文字会留在这里。`:`最近阅读的 ${ids.length} 篇作品，最多保留 50 条记录。`;const list=ids.map(getPoem).filter(Boolean);$("pageGrid").innerHTML=list.length?list.map(poemCard).join(""):`<div class="empty-list">这里暂时还没有作品。去阅览室拾取一篇喜欢的文字吧。</div>`;bindPoemCards($("pageGrid"))}
+function renderPageList(){const home=activePage==="home",profile=activePage==="profile";$("homeView").hidden=!home;$("pageView").hidden=home||profile;$("profileView").hidden=!profile;if(home)return;if(profile){if(window.poetryAccount)window.poetryAccount.renderProfile();return;}const isFav=activePage==="favorites";const ids=isFav?favorites:history;$("pageTitle").textContent=isFav?"我的收藏":"阅读足迹";$("pageDescription").textContent=isFav?`已收藏 ${ids.length} 篇作品。喜欢的文字会留在这里。`:`最近阅读的 ${ids.length} 篇作品，最多保留 50 条记录。`;$("pageGrid").innerHTML=ids.map(getPoem).filter(Boolean).map(poemCard).join("")||`<div class="empty-list">这里暂时还没有作品。去阅览室拾取一篇喜欢的文字吧。</div>`;bindPoemCards($("pageGrid"))}
 document.querySelectorAll(".nav-btn").forEach(btn=>btn.addEventListener("click",()=>{activePage=btn.dataset.page;updateNavigation();renderPageList();window.scrollTo({top:0,behavior:"smooth"})}));
 $("randomBtn").addEventListener("click",randomPoem);$("favoriteBtn").addEventListener("click",toggleFavorite);$("copyBtn").addEventListener("click",copyPoem);$("cardBtn").addEventListener("click",createQuoteCard);$("searchInput").addEventListener("input",searchPoems);$("clearSearch").addEventListener("click",()=>{$("searchInput").value="";searchPoems();$("searchInput").focus()});
 // 纸张、字体和竖排偏好保存在本机。
@@ -1123,3 +1769,6 @@ let audioContext=null,masterGain=null,musicTimer=null,musicOn=false;function sta
 // 将当前作品绘制成可保存的 PNG 摘抄卡片。
 function createQuoteCard(){if(!currentPoem)return;const p=currentPoem,canvas=document.createElement("canvas"),ctx=canvas.getContext("2d");canvas.width=1200;canvas.height=1500;ctx.fillStyle="#eef0f1";ctx.fillRect(0,0,1200,1500);ctx.strokeStyle="#cbd2d7";ctx.lineWidth=2;ctx.strokeRect(55,55,1090,1390);ctx.strokeStyle="#aab3b8";ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(120,190);ctx.lineTo(1080,190);ctx.stroke();ctx.fillStyle="#78858d";ctx.font="24px Georgia, serif";ctx.textAlign="left";ctx.fillText("LITTLE POETRY  ·  QUOTE CARD",120,145);ctx.fillStyle="#3c454b";ctx.font=`52px ${getComputedStyle(document.body).getPropertyValue("--font") || "serif"}`;ctx.textAlign="center";const lines=p.text.split("\n");const lineHeight=94;let y=560-(lines.length-1)*lineHeight/2;lines.forEach(line=>{ctx.fillText(line,600,y,900);y+=lineHeight});ctx.fillStyle="#737e85";ctx.font=`28px ${getComputedStyle(document.body).getPropertyValue("--font") || "serif"}`;ctx.fillText(`—— ${p.author}《${p.title}》`,600,1050);ctx.font=`21px ${getComputedStyle(document.body).getPropertyValue("--font") || "serif"}`;ctx.fillText(p.source,600,1110);ctx.fillStyle="#9aa3a8";ctx.font="20px Georgia, serif";ctx.fillText("以文字为笺，以岁月为墨。",600,1320);const link=document.createElement("a");link.download=`诗词拾光-${p.title}-摘抄卡.png`;link.href=canvas.toDataURL("image/png");link.click();showToast("摘抄卡片已生成")}
 applyPreferences();renderDaily();renderCategories();renderBrowse();updateNavigation();
+
+// 为账户模块提供兼容接口：保留原有 localStorage 键名与本地阅读体验。
+window.poetryAppBridge={getFavorites:()=>[...favorites],getHistory:()=>[...history],setCloudLibrary:(fav,read)=>{favorites=[...new Set((fav||[]).map(Number))];history=[...new Set((read||[]).map(Number))].slice(0,50);saveStorage(STORAGE.favorites,favorites);saveStorage(STORAGE.history,history);updateFavoriteButton();if(activePage==="favorites"||activePage==="history")renderPageList()},getPoem:id=>getPoem(id),getPoems:()=>poems,refresh:()=>{if(activePage==="favorites"||activePage==="history")renderPageList()}};

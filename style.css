@@ -159,3 +159,35 @@ footer{max-width:1120px;margin:0 auto;padding:20px 34px;border-top:1px solid var
  .toolbar-controls label{font-size:11px}
  .toolbar-controls select{font-size:11px;padding:6px}
 }
+
+/* 账户与个人空间：延续原有雾白纸张、灰蓝色调和书籍式排版 */
+.account-actions{display:flex;align-items:center;gap:10px;margin-left:auto}
+.account-status{font-size:11px;color:var(--muted);max-width:125px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.account-button{border:1px solid var(--line);background:rgba(255,255,255,.55);padding:9px 13px;font-size:11px;color:var(--ink-soft)}
+.account-button:hover{border-color:var(--accent);background:#fff}
+.profile-view{padding:55px 0 90px}
+.profile-card{background:rgba(255,255,255,.55);border:1px solid var(--line);padding:clamp(22px,4vw,38px);margin:24px 0;box-shadow:var(--shadow)}
+.profile-top{display:flex;align-items:center;gap:17px}
+.avatar-mark,.profile-seal{width:58px;height:58px;flex:0 0 58px;display:grid;place-items:center;border:1px solid #aebbc0;border-radius:50%;color:#637780;font-size:23px}
+.profile-top h3{font-size:22px;font-weight:400;letter-spacing:2px;margin:4px 0}
+.profile-email{font-size:12px;color:var(--muted)}
+.profile-top .secondary-button{margin-left:auto}
+.profile-edit{display:flex;align-items:end;gap:12px;margin:25px 0 22px;padding-bottom:22px;border-bottom:1px solid var(--line)}
+.profile-edit label,.note-form label,.auth-dialog label{display:flex;flex-direction:column;gap:7px;font-size:12px;color:var(--muted);flex:1}
+.profile-edit input,.note-form input,.note-form textarea,.note-form select,.auth-dialog input{width:100%;border:1px solid var(--line);background:#fbfbfa;padding:11px 12px;font:inherit;color:var(--ink);outline:none}
+.profile-edit input:focus,.note-form input:focus,.note-form textarea:focus,.note-form select:focus,.auth-dialog input:focus{border-color:#82949b}
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.stats-grid>div{display:flex;flex-direction:column;align-items:center;gap:5px;padding:17px 8px;background:rgba(238,241,241,.65);border:1px solid rgba(207,215,217,.7)}
+.stats-grid strong{font:26px Georgia,serif;color:#60747d;font-weight:400}.stats-grid span{font-size:11px;color:var(--muted);letter-spacing:1px}
+.notes-card>.section-heading{margin-bottom:24px}
+.note-form{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:28px}
+.note-form label:nth-child(2){grid-column:1/-1}.note-form textarea{resize:vertical;line-height:1.8}.note-form .primary-button{justify-self:start}
+.notes-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.note-entry{padding:20px;background:rgba(255,255,255,.68);border:1px solid var(--line)}
+.note-entry-top{display:flex;justify-content:space-between;align-items:start;gap:12px}.note-entry h3{font-size:15px;font-weight:400;letter-spacing:1px}.note-entry time,.note-entry small{font-size:10px;color:var(--muted)}.note-entry p{white-space:pre-wrap;line-height:1.9;font-size:13px;color:var(--ink-soft);margin:14px 0}.note-delete{border:0;background:transparent;color:#8b7772;font-size:11px;padding:3px}
+.profile-locked{text-align:center;padding:60px 20px;border:1px dashed var(--line);background:rgba(255,255,255,.35)}
+.profile-seal{margin:0 auto 20px}.profile-locked h3{font-size:21px;font-weight:400;letter-spacing:2px}.profile-locked p{font-size:12px;color:var(--muted);margin:12px 0 22px}
+.auth-overlay{position:fixed;inset:0;z-index:1000;background:rgba(35,44,48,.38);display:grid;place-items:center;padding:18px;backdrop-filter:blur(3px)}
+.auth-overlay[hidden]{display:none}.auth-dialog{position:relative;width:min(100%,430px);padding:38px;background:#f7f8f7;border:1px solid #cbd3d5;box-shadow:0 18px 70px rgba(35,44,48,.2)}
+.auth-close{position:absolute;right:17px;top:12px;border:0;background:transparent;font-size:25px;color:var(--muted)}.auth-dialog h2{font-size:28px;font-weight:400;letter-spacing:3px;margin:10px 0}.auth-subtitle{font-size:12px;color:var(--muted);margin-bottom:25px}.auth-dialog form{display:grid;gap:15px}.auth-submit{width:100%;margin-top:5px}.auth-switch{font-size:12px;color:var(--muted);margin-top:20px;text-align:center}.auth-switch button{border:0;background:transparent;color:#637780;text-decoration:underline}.auth-message{font-size:11px;color:#657982;min-height:18px;margin-top:12px;text-align:center}.auth-message.error{color:#a15f55}
+@media(max-width:760px){.site-header{align-items:center}.account-actions{margin-left:0}.account-status{display:none}.main-nav{order:3;width:100%;justify-content:space-between}.profile-edit{align-items:stretch;flex-direction:column}.note-form,.notes-list{grid-template-columns:1fr}.note-form label:nth-child(2){grid-column:auto}.profile-top{flex-wrap:wrap}.profile-top .secondary-button{margin-left:auto}.auth-dialog{padding:32px 23px}}
