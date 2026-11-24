@@ -193,7 +193,7 @@ footer{max-width:1120px;margin:0 auto;padding:20px 34px;border-top:1px solid var
 @media(max-width:760px){.site-header{align-items:center}.account-actions{margin-left:0}.account-status{display:none}.main-nav{order:3;width:100%;justify-content:space-between}.profile-edit{align-items:stretch;flex-direction:column}.note-form,.notes-list{grid-template-columns:1fr}.note-form label:nth-child(2){grid-column:auto}.profile-top{flex-wrap:wrap}.profile-top .secondary-button{margin-left:auto}.auth-dialog{padding:32px 23px}}
 
 
-/* ===== 四境水墨背景：固定图层 + GPU 位移动画，兼容桌面与移动端 ===== */
+/* ===== 四境水墨背景：背景置于内容下方，固定图层 + GPU 位移动画 ===== */
 body{
   background:transparent;
   isolation:isolate;
@@ -203,7 +203,7 @@ body::after{
   content:"";
   position:fixed;
   inset:0;
-  z-index:-1;
+  z-index:-2;
   pointer-events:none;
   background:var(--paper);
 }
@@ -211,7 +211,7 @@ body::before{
   content:"";
   position:fixed;
   inset:-4%;
-  z-index:0;
+  z-index:-1;
   pointer-events:none;
   background-image:
     linear-gradient(rgba(238,240,241,.42),rgba(238,240,241,.50)),
