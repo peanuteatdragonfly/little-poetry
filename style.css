@@ -193,61 +193,55 @@ footer{max-width:1120px;margin:0 auto;padding:20px 34px;border-top:1px solid var
 @media(max-width:760px){.site-header{align-items:center}.account-actions{margin-left:0}.account-status{display:none}.main-nav{order:3;width:100%;justify-content:space-between}.profile-edit{align-items:stretch;flex-direction:column}.note-form,.notes-list{grid-template-columns:1fr}.note-form label:nth-child(2){grid-column:auto}.profile-top{flex-wrap:wrap}.profile-top .secondary-button{margin-left:auto}.auth-dialog{padding:32px 23px}}
 
 
-/* ===== 诗词拾光：四境动态水墨背景 ===== */
-
-body {
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    animation: inkBackground 22s ease-in-out infinite alternate;
+/* ===== 四境水墨背景：固定图层 + GPU 位移动画，兼容桌面与移动端 ===== */
+body{
+  background:transparent;
+  isolation:isolate;
+  position:relative;
 }
-
-/* 阅览室：春江垂柳 */
-body[data-page="home"] {
-    background-image:
-        linear-gradient(
-            rgba(247, 247, 243, 0.65),
-            rgba(247, 247, 243, 0.75)
-        ),
-        url("./images/bg-home.jpg");
+body::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background:var(--paper);
 }
-
-/* 我的收藏：幽篁竹林 */
-body[data-page="favorites"] {
-    background-image:
-        linear-gradient(
-            rgba(247, 247, 243, 0.65),
-            rgba(247, 247, 243, 0.75)
-        ),
-        url("./images/bg-favorites.jpg");
+body::before{
+  content:"";
+  position:fixed;
+  inset:-4%;
+  z-index:0;
+  pointer-events:none;
+  background-image:
+    linear-gradient(rgba(238,240,241,.42),rgba(238,240,241,.50)),
+    var(--scene-image, none);
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  transform:translate3d(0,0,0) scale(1.035);
+  transform-origin:center;
+  will-change:transform,background-position;
+  animation:poetrySceneDrift 26s ease-in-out infinite alternate;
 }
-
-/* 阅读足迹：山间寻踪 */
-body[data-page="history"] {
-    background-image:
-        linear-gradient(
-            rgba(247, 247, 243, 0.65),
-            rgba(247, 247, 243, 0.75)
-        ),
-        url("./images/bg-history.jpg");
+body[data-page="home"]{--scene-image:url("./images/bg-home.jpg")}
+body[data-page="favorites"]{--scene-image:url("./images/bg-favorites.jpg")}
+body[data-page="history"]{--scene-image:url("./images/bg-history.jpg")}
+body[data-page="profile"]{--scene-image:url("./images/bg-profile.jpg")}
+@keyframes poetrySceneDrift{
+  0%{transform:translate3d(-1.2%,.4%,0) scale(1.035);background-position:48% 48%}
+  50%{transform:translate3d(.7%,-.5%,0) scale(1.065);background-position:52% 51%}
+  100%{transform:translate3d(1.2%,.7%,0) scale(1.045);background-position:54% 53%}
 }
-
-/* 个人空间：荷塘清晓 */
-body[data-page="profile"] {
-    background-image:
-        linear-gradient(
-            rgba(247, 247, 243, 0.65),
-            rgba(247, 247, 243, 0.75)
-        ),
-        url("./images/bg-profile.jpg");
-}
-
-/* 背景缓慢移动 */
-@keyframes inkBackground {
-    from {
-        background-position: center, 48% 48%;
-    }
-    to {
-        background-position: center, 53% 52%;
-    }
+/* 让内容保持清晰，同时留出足够空间看见背景 */
+.site-header{background:color-mix(in srgb,var(--paper) 78%,transparent)}
+@media(max-width:760px){
+  body::before{
+    position:fixed;
+    inset:-7%;
+    background-attachment:scroll;
+    animation-duration:20s;
+    transform:translate3d(0,0,0) scale(1.05);
+  }
+  .site-header{background:color-mix(in srgb,var(--paper) 76%,transparent)}
 }
